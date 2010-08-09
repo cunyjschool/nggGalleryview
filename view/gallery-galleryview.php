@@ -21,9 +21,6 @@ Follow variables are useable :
 	<div class="panel">
 		<img src="<?php echo $image->imageURL ?>" />
 		<div class="panel-overlay">
-			<?php if ($image->alttext) : ?>
-			<h3><?php echo html_entity_decode ($image->alttext); ?></h3>
-			<?php endif; ?>
 			<p><?php echo html_entity_decode ($image->description); ?></p>
 		</div>
 	</div>
