@@ -40,7 +40,7 @@ Follow variables are useable :
 			panel_height: 400,
 			frame_width: 40,
 			frame_height: 40,
-			transition_interval: 12000,
+			transition_interval: 10000,
 			overlay_color: '#1B1B1B',
 			overlay_text_color: 'white',
 			caption_text_color: '#222',
