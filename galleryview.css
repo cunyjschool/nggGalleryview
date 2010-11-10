@@ -36,7 +36,7 @@
 .galleryview { visibility: hidden; }
 
 /* GALLERY CONTAINER */
-.gallery { background: #ddd; border: 1px solid #aaa; padding: 5px;}
+#home .gallery { background: #ddd; border: 1px solid #aaa; padding: 5px;}
 
 /* GALLERY PANELS */
 .panel {padding-top: 10px;}
@@ -55,6 +55,10 @@
 .panel .panel-overlay h2 { margin:15px 0 0; color: white; }
 
 .galleryview .panel img { width: 450px; height: 400px;}
+
+.galleryview img.nav-next { display: none; }
+.galleryview img.nav-prev { display: none; }
+.galleryview #pointer { display: none; }
 
 /* FILMSTRIP */
 /* 'margin' will define top/bottom margin in completed gallery */
